@@ -1,0 +1,22 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://106.14.0.46:3306/dianshangdb?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC&allowMultiQueries=true
+        username: dianshang
+        password: dianshang123
+        #initialization-mode: always
+    jpa:
+      hibernate:
+        ddl-auto: none
+
+ 
+log:
+  path: E:\\temp\\dianhang.log
+  level: INFO
+    
+# --- server
+server:
+  port: 8092
+
+
+
